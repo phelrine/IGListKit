@@ -26,7 +26,9 @@ This release closes the [3.0.0 milestone](https://github.com/Instagram/IGListKit
 
 - Replaced `IGListGridCollectionViewLayout` with `IGListCollectionViewLayout`. [Ryan Nystrom](https://github.com/rnystrom) ([#482](https://github.com/Instagram/IGListKit/pull/482), [#450](https://github.com/Instagram/IGListKit/pull/450))
 
-- Renamed `IGListAdapterUpdaterDelegate` method to `listAdapterUpdater:didPerformBatchUpdates:collectionView:`. [Vincent Peng](https://github.com/vincent-peng) [(#491)](https://github.com/Instagram/IGListKit/pull/491)
+- Empty Views now move with Refresh Controls, and no longer use the `_collectionView.backgroundView` property. [dshahidehpour](https://github.com/dshahidehpour) [(#462)](https://github.com/Instagram/IGListKit/pull/462)]
+
+
 
 
 ### Enhancements
@@ -212,5 +214,3 @@ You can find a [migration guide here](https://instagram.github.io/IGListKit/migr
 -----
 
 Initial release. :tada:
-
-
